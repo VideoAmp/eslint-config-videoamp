@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/VideoAmp/eslint-config-videoamp#readme",
   "license": "UNLICENSED",
-  "dependencies": {
+  "peerDependencies": {
     "eslint-config-airbnb": "~9.0.1",
     "eslint-config-airbnb-base": "~3.0.1",
     "eslint-plugin-import": "~1.8.1",
