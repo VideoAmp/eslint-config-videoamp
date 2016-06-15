@@ -4,9 +4,9 @@ This package extends Airbnb's styleguide with VideoAmp's code style, and provide
 
 ## Install
 ```sh
-npm install --save-dev eslint-config-videoamp eslint
+npm install --save-dev git://github.com/VideoAmp/eslint-config-videoamp.git eslint
 ```
-> TODO: Consider making this code style repo public and publish to npm registry.
+> TODO: Publish to npm registry.
 
 ## Usage
 
