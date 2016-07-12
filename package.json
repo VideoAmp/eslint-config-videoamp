@@ -11,7 +11,8 @@
     "url": "git+https://github.com/VideoAmp/eslint-config-videoamp.git"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "javascript"
   ],
   "author": "VideoAmp",
   "bugs": {
