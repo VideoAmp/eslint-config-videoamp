@@ -5,6 +5,5 @@ module.exports = {
     ].map(require.resolve),
     "rules": {
         "strict": [2, "function"],
-        "func-names": 0,
     },
 };

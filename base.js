@@ -12,5 +12,6 @@ module.exports = {
             },
         }],
         "radix": ["error", "as-needed"],
+        "func-names": 0,
     },
 };
