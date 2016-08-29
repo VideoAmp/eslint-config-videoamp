@@ -8,7 +8,6 @@ module.exports = {
             newIsCap: true,
             capIsNewExceptions: ["express.Router"],
         }],
-        "object-shorthand": ["error", "never"],
         "camelcase": ["off", { "properties": "always" }],
     },
 };
