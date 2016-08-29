@@ -1,4 +1,5 @@
 # eslint-config-videoamp
+[![npm version](https://badge.fury.io/js/eslint-config-videoamp.svg)](https://badge.fury.io/js/eslint-config-videoamp)
 
 This package extends Airbnb's styleguide with VideoAmp's code style, and provides an extensible shared config.
 
