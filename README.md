@@ -5,7 +5,7 @@ This package extends Airbnb's styleguide with VideoAmp's code style, and provide
 
 ## Install
 ```sh
-npm install --save-dev eslint-config-videoamp eslint-config-airbnb eslint-config-airbnb-base eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint
+npm install --save-dev eslint-config-videoamp eslint-config-airbnb-base eslint-plugin-import eslint
 ```
 
 ## Usage
@@ -14,13 +14,13 @@ We export two ESLint configurations for our usage.
 
 ### eslint-config-videoamp
 
-Our default export contains all of Airbnb's ES6 lint rules with our custom configuration.
+Our default export contains all of Airbnb's base ES6 lint rules with our custom configuration.
 
 Add `"extends": "videoamp"` to your .eslintrc
 
 ### eslint-config-videoamp/es5
 
-Contains all of Airbnb's legacy (ES5 and below) lint rules with our custom configuration.
+Contains all of Airbnb's base legacy (ES5 and below) lint rules with our custom configuration.
 
 Add `"extends": "videoamp/es5"` to your .eslintrc
 
