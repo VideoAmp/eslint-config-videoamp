@@ -4,6 +4,11 @@
 This package extends Airbnb's styleguide with VideoAmp's code style, and provides an extensible shared config.
 
 ## Install
+### `yarn`
+```sh
+yarn add --dev eslint-config-videoamp eslint-config-airbnb-base eslint-plugin-import eslint
+```
+### `npm`
 ```sh
 npm install --save-dev eslint-config-videoamp eslint-config-airbnb-base eslint-plugin-import eslint
 ```
@@ -29,4 +34,4 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
 
 ## Contributing
 
-You can make sure this module lints with itself using `npm run lint`.
+You can make sure this module lints with itself using `yarn lint`.
