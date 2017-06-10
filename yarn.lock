@@ -271,6 +271,10 @@ eslint-plugin-import@~1.14.0:
     pkg-dir "^1.0.0"
     pkg-up "^1.0.0"
 
+eslint-restricted-globals@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-restricted-globals/-/eslint-restricted-globals-0.1.1.tgz#35f0d5cbc64c2e3ed62e93b4b1a7af05ba7ed4d7"
+
 eslint@~3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.4.0.tgz#af5984007bd3f1fb1b3b6b01a0a22eda0ec7a9f4"
