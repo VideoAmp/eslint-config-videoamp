@@ -11,7 +11,7 @@ module.exports = {
         "brace-style": ["error", "1tbs", { allowSingleLine: true }],
 
         // require camel case names
-        "camelcase": ["error", { properties: "never" }],
+        "camelcase": ["error", { properties: "always" }],
 
         // enforce or disallow capitalization of the first letter of a comment
         // http://eslint.org/docs/rules/capitalized-comments
@@ -182,7 +182,7 @@ module.exports = {
             newIsCap: true,
             newIsCapExceptions: [],
             capIsNew: false,
-            capIsNewExceptions: ["Immutable.Map", "Immutable.Set", "Immutable.List"],
+            capIsNewExceptions: ["Immutable.Map", "Immutable.Set", "Immutable.List", "express.Router"],
         }],
 
         // disallow the omission of parentheses when invoking a constructor with no arguments
