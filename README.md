@@ -1,4 +1,5 @@
 # eslint-config-videoamp
+[![Build Status](https://semaphoreci.com/api/v1/videoamp/eslint-config-videoamp/branches/master/badge.svg)](https://semaphoreci.com/videoamp/eslint-config-videoamp)
 [![npm version](https://badge.fury.io/js/eslint-config-videoamp.svg)](https://badge.fury.io/js/eslint-config-videoamp)
 
 This package uses ESLint to enforce VideoAmp's code style and provides a shared base configuration for our JavaScript projects.
