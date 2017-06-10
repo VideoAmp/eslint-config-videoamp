@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-videoamp",
   "version": "2.1.0",
-  "description": "VideoAmp's ESLint config, extending Airbnb's styleguide",
+  "description": "VideoAmp's base ESLint config for our JavaScript projects",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
@@ -14,7 +14,8 @@
     "eslint",
     "javascript"
   ],
-  "author": "VideoAmp",
+  "author": "VideoAmp <geeks@videoamp.com>",
+  "license": "Apache-2.0"
   "bugs": {
     "url": "https://github.com/VideoAmp/eslint-config-videoamp/issues"
   },
