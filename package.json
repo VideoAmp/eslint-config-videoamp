@@ -15,7 +15,7 @@
     "javascript"
   ],
   "author": "VideoAmp <geeks@videoamp.com>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/VideoAmp/eslint-config-videoamp/issues"
   },
