@@ -29,7 +29,13 @@ module.exports = {
         }],
 
         // require trailing commas
-        "comma-dangle": [2, "always-multiline"],
+        "comma-dangle": ["error", {
+            arrays: "always-multiline",
+            objects: "always-multiline",
+            imports: "always-multiline",
+            exports: "always-multiline",
+            functions: "always-multiline",
+        }],
 
         // enforce spacing before and after comma
         "comma-spacing": ["error", { before: false, after: true }],
