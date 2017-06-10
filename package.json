@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-videoamp",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "VideoAmp's base ESLint config for our JavaScript projects",
   "main": "index.js",
   "scripts": {
@@ -15,12 +15,11 @@
     "javascript"
   ],
   "author": "VideoAmp <geeks@videoamp.com>",
-  "license": "Apache-2.0",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/VideoAmp/eslint-config-videoamp/issues"
   },
   "homepage": "https://github.com/VideoAmp/eslint-config-videoamp#readme",
-  "license": "UNLICENSED",
   "peerDependencies": {
     "eslint": ">= 3.19.0"
   },
