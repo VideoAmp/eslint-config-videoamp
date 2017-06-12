@@ -1,10 +1,8 @@
 module.exports = {
+    "plugins": ["fp"],
     "env": {
         "es6": true,
     },
-    "plugins": [
-        "fp",
-    ],
     "rules": {
         "fp/no-arguments": "error",
         "fp/no-class": "off",
