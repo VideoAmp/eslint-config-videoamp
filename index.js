@@ -9,5 +9,6 @@ module.exports = {
         "./rules/plugins/import",
         "./rules/plugins/promise",
         "./rules/plugins/fp",
+        "./rules/plugins/chai-expect",
     ].map(require.resolve),
 };
