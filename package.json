@@ -29,6 +29,7 @@
   "dependencies": {
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-unicorn": "^2.1.1",
     "eslint-restricted-globals": "^0.1.1"
   }
 }
