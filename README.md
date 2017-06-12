@@ -19,14 +19,18 @@ npm install --save-dev eslint-config-videoamp eslint
 ```
 
 ## Usage
-If you would like to use the base rules, add `"extends": "videoamp"` to your `.eslintrc`.
+Add `"extends": "videoamp"` to your `.eslintrc`.
 
 ## Legacy `eslint-config-videoamp` for ES5 projects
 For projects that use ES5, see documentation from the `v2.1.0` config [here](https://github.com/VideoAmp/eslint-config-videoamp/blob/master/README.md#eslint-config-videoampes5).
 
 ## Resources
-See the [ESLint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information.
+- [ESLint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
+- [`eslint-plugin-import`](https://github.com/benmosher/eslint-plugin-import)
+- [`eslint-plugin-unicorn`](https://github.com/sindresorhus/eslint-plugin-unicorn)
+- [`eslint-plugin-fp`](https://github.com/jfmengels/eslint-plugin-fp)
+- [`eslint-plugin-promise`](https://github.com/xjamundx/eslint-plugin-promise)
+- [`eslint-plugin-chai-expect`](https://github.com/turbo87/eslint-plugin-chai-expect)
 
 ## Contributing
-
 You can make sure this module lints with itself using `yarn lint`.

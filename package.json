@@ -15,7 +15,7 @@
     "javascript"
   ],
   "author": "VideoAmp <geeks@videoamp.com>",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/VideoAmp/eslint-config-videoamp/issues"
   },
@@ -27,7 +27,11 @@
     "eslint": "^3.19.0"
   },
   "dependencies": {
+    "eslint-plugin-chai-expect": "^1.1.1",
+    "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-unicorn": "^2.1.1",
     "eslint-restricted-globals": "^0.1.1"
   }
 }
