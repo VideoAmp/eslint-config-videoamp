@@ -8,6 +8,7 @@ module.exports = {
         "./rules/es6",
         "./rules/plugins/import",
         "./rules/plugins/promise",
+        "./rules/plugins/unicorn",
         "./rules/plugins/fp",
         "./rules/plugins/chai-expect",
     ].map(require.resolve),

@@ -1,4 +1,5 @@
 module.exports = {
+    plugins: ["unicorn"],
     env: {
         es6: true,
     },
