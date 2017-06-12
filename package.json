@@ -27,6 +27,7 @@
     "eslint": "^3.19.0"
   },
   "dependencies": {
+    "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-unicorn": "^2.1.1",
