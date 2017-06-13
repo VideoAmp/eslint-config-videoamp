@@ -19,7 +19,7 @@ module.exports = {
         "fp/no-rest-parameters": "off",
         "fp/no-this": "off",
         "fp/no-throw": "off",
-        "fp/no-unused-expression": "error",
+        "fp/no-unused-expression": "off",
         "fp/no-valueof-field": "error",
     },
 };
