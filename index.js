@@ -11,5 +11,6 @@ module.exports = {
         "./rules/plugins/unicorn",
         "./rules/plugins/fp",
         "./rules/plugins/chai-expect",
+        "./rules/plugins/chai-friendly",
     ].map(require.resolve),
 };

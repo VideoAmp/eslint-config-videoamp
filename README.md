@@ -23,6 +23,17 @@ Add `"extends": "videoamp"` to your `.eslintrc`.
 
 ## Legacy `eslint-config-videoamp` for ES5 projects
 For projects that use ES5, see documentation from the `v2.1.0` config [here](https://github.com/VideoAmp/eslint-config-videoamp/blob/master/README.md#eslint-config-videoampes5).
+### Using configuration with Chai
+Chai does not play well with the [`no-unused-expressions`](http://eslint.org/docs/rules/no-unused-expressions) rule in ESLint, so we use [`eslint-plugin-chai-friendly`](https://github.com/ihordiachenko/eslint-plugin-chai-friendly) as a workaround. To set up linting for tests, add this to your test folder's `.eslintrc`:
+```json
+"rules": {
+    "no-unused-expressions": "off",
+    "chai-friendly/no-unused-expressions": "error",
+},
+```
+
+### Using `eslint-config-videoamp` on legacy projects (ES5)
+For projects that use ES5, see documentation from the `v2.1.0` config [here](https://github.com/VideoAmp/eslint-config-videoamp/tree/v2.1.0#eslint-config-videoampes5).
 
 ## Resources
 - [ESLint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
