@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "eslint-plugin-chai-expect": "^1.1.1",
+    "eslint-plugin-chai-friendly": "^0.3.6",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-promise": "^3.5.0",
