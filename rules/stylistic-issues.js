@@ -222,11 +222,11 @@ module.exports = {
         // http://eslint.org/docs/rules/no-mixed-operators
         "no-mixed-operators": ["error", {
             groups: [
-        ["+", "-", "*", "/", "%", "**"],
-        ["&", "|", "^", "~", "<<", ">>", ">>>"],
-        ["==", "!=", "===", "!==", ">", ">=", "<", "<="],
-        ["&&", "||"],
-        ["in", "instanceof"],
+                ["+", "-", "*", "/", "%", "**"],
+                ["&", "|", "^", "~", "<<", ">>", ">>>"],
+                ["==", "!=", "===", "!==", ">", ">=", "<", "<="],
+                ["&&", "||"],
+                ["in", "instanceof"],
             ],
             allowSamePrecedence: false,
         }],
@@ -390,11 +390,11 @@ module.exports = {
         "spaced-comment": ["error", "always", {
             line: {
                 exceptions: ["-", "+"],
-                markers: ["=", "!"],    // space here to support sprockets directives
+                markers: ["=", "!"], // space here to support sprockets directives
             },
             block: {
                 exceptions: ["-", "+"],
-                markers: ["=", "!"],    // space here to support sprockets directives
+                markers: ["=", "!"], // space here to support sprockets directives
                 balanced: false,
             },
         }],
