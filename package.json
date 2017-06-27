@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-videoamp",
-  "version": "4.1.1",
+  "version": "4.2.0",
   "description": "VideoAmp's base ESLint config for our JavaScript projects",
   "main": "index.js",
   "scripts": {
