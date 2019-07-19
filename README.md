@@ -1,4 +1,6 @@
 # eslint-config-videoamp
+[![npm version](https://badge.fury.io/js/eslint-config-videoamp.svg)](https://badge.fury.io/js/eslint-config-videoamp)
+
 This package uses ESLint to enforce VideoAmp's code style and provides a shared base configuration for our Typescript projects.
 
 ## Install
