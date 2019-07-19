@@ -8,15 +8,24 @@ yarn add eslint-config-videoamp eslint --dev
 ```
 
 ## Usage
+Create a .eslintrc file in base of your project:
 
 ### For Node Projects
-Add `"extends": "eslint-config-videoamp"` to your `.eslintrc`.
+```js
+{
+    extends: 'videoamp'
+}
+```
 
 ### For React Projects
-Add `"extends": "eslint-config-videoamp/react"` to your `.eslintrc`.
+```js
+{
+    extends: 'videoamp/react'
+}
+```
 
-### Enabling Prettier
-Add `"prettier": "eslint-config-videoamp/prettier.config` to your `package.json`.
+## Enabling Prettier
+Add `"prettier": "eslint-config-videoamp/prettier.config"` to your `package.json`.
 
 ## Contributing
 You can make sure this module lints with itself using `yarn lint`.

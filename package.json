@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint *.js"
   },
+  "prettier": "./prettier.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VideoAmp/eslint-config-videoamp.git"
@@ -22,9 +23,8 @@
   },
   "homepage": "https://github.com/VideoAmp/eslint-config-videoamp#readme",
   "peerDependencies": {
-    "eslint": ">= 5",
-    "eslint-plugin-react": ">= 7.14.2",
-    "eslint-plugin-react-hooks": ">= 1.6.1"
+    "eslint": "5.*",
+    "typescript": ">= 3"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
