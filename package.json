@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-videoamp",
-  "version": "4.2.0",
+  "version": "5.0.0",
   "description": "VideoAmp's base ESLint config for our Typescript projects",
   "main": "index.js",
   "scripts": {
