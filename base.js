@@ -18,7 +18,7 @@ module.exports = {
         // Public is assumed by default for class members, and shouldn't be explicit
         '@typescript-eslint/explicit-member-accessibility': 'no-public',
         // It's often not feasible to avoid an "any" type for some siuations
-        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/no-explicit-any': 'warn',
         // We often can't control API JSON response/request property naming conventions
         '@typescript-eslint/camelcase': 'off',
     },
