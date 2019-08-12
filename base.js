@@ -22,12 +22,5 @@ module.exports = {
         '@typescript-eslint/no-explicit-any': 'warn',
         // We often can't control API JSON response/request property naming conventions
         '@typescript-eslint/prefer-interface': 'off',
-        'sort-keys': [
-            'error',
-            'asc',
-            {
-                natural: true,
-            },
-        ],
     },
 };
