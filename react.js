@@ -8,11 +8,12 @@ module.exports = {
         'plugin:react/recommended', // Enables jsx and react rules
         'plugin:prettier/recommended', // Enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Should be last in the extends array.
     ],
-    plugins: ['react-hooks'],
+    plugins: ['react-hooks', 'videoamp'],
     rules: {
         'react/jsx-sort-props': 'error',
         'react-hooks/exhaustive-deps': 'warn',
         'react-hooks/rules-of-hooks': 'error',
+        'videoamp/import-order': 'error',
     },
     settings: {
         react: {
