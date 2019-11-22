@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint *.js",
     "release": "release-it",
-    "release:dryrun": "release-it --dryrun"
+    "release:dryrun": "release-it --dry-run"
   },
   "prettier": "./prettier.config.js",
   "repository": {
