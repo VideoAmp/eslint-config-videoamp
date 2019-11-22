@@ -4,7 +4,9 @@
   "description": "VideoAmp's base ESLint config for our Typescript projects",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint *.js"
+    "lint": "eslint *.js",
+    "release": "release-it",
+    "release:dryrun": "release-it --dryrun"
   },
   "prettier": "./prettier.config.js",
   "repository": {
@@ -28,6 +30,7 @@
   },
   "devDependencies": {
     "eslint": "^6.6.0",
+    "release-it": "^12.4.3",
     "typescript": "^3.7.2"
   },
   "dependencies": {
