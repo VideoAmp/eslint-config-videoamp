@@ -19,6 +19,7 @@ module.exports = {
             'double',
             { avoidEscape: true, allowTemplateLiterals: true },
         ],
+        'comma-dangle': ['error', 'always'],
         // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
         '@typescript-eslint/camelcase': 'off',
         // Public is assumed by default for class members, and shouldn't be explicit
