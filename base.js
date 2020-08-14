@@ -16,7 +16,7 @@ module.exports = {
     rules: {
         quotes: [
             'warn',
-            'double',
+            'single',
             { avoidEscape: true, allowTemplateLiterals: true },
         ],
         'comma-dangle': ['error', 'always'],
