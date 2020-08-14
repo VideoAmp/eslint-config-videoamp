@@ -14,7 +14,11 @@ module.exports = {
         sourceType: 'module', // Allows for the use of imports
     },
     rules: {
-        quotes: ['warn', 'double', { avoidEscape: true }],
+        quotes: [
+            'warn',
+            'double',
+            { avoidEscape: true, allowTemplateLiterals: true },
+        ],
         // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
         '@typescript-eslint/camelcase': 'off',
         // Public is assumed by default for class members, and shouldn't be explicit
