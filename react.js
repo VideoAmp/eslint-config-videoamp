@@ -10,12 +10,6 @@ module.exports = {
     ],
     plugins: ['react-hooks'],
     rules: {
-        quotes: [
-            'warn',
-            'single',
-            { avoidEscape: true, allowTemplateLiterals: true },
-        ],
-        'comma-dangle': ['error', 'always'],
         'react/jsx-sort-props': 'error',
         'react-hooks/exhaustive-deps': 'warn',
         'react-hooks/rules-of-hooks': 'error',
