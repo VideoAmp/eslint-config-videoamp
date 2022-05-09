@@ -25,21 +25,21 @@
   },
   "homepage": "https://github.com/VideoAmp/eslint-config-videoamp#readme",
   "peerDependencies": {
-    "eslint": "6.*",
+    "eslint": "^8.15.0",
     "typescript": ">= 3"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
+    "eslint": "^8.15.0",
     "release-it": "^12.4.3",
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.8.0",
-    "@typescript-eslint/parser": "^2.8.0",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.16.0",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^2.3.0",
-    "prettier": "^1.19.1"
+    "prettier": "^2.6.2"
   }
 }
